@@ -1,8 +1,5 @@
 # 48 Bulbs Board Test
 
-hier beschrijving.
-[ESP-Web-Tools](https://esphome.github.io/esp-web-tools/) 
-
 1. Connect with USB-C Cable to the board.
 2. Click "Install" button below.
 3. Select the COM port that the board is connected to.
