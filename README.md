@@ -21,5 +21,11 @@
 - If writing not working, try holding down the boot button while selecting the com port.
 - Make sure the correct USB drivers, either CP2102 or CH34x driver are installed on the computer depending on the ESP board used.
 
-Square chip:[CP2102 Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-Rectangular chip:[CH34x Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers)
+Square chip: [CP2102 Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+Rectangular chip: [CH34x Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers)
+
+# Test succes
+
+<html>
+<img src="test.jpg" alt="test">
+</html>
