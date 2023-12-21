@@ -27,5 +27,5 @@ Rectangular chip: [CH34x Drivers](https://github.com/nodemcu/nodemcu-devkit/tree
 # Test succes
 
 <html>
-<img src="test.jpg" alt="test">
+<img src="example.gif" alt="test">
 </html>
