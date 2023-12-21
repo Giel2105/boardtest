@@ -22,7 +22,7 @@ hier beschrijving.
 - Make sure the USB cable you use supports data transfer.
 - Use Chrome browser! Other browsers not supported.
 - If writing not working, try holding down the boot button while selecting the com port.
-- Make sure the correct USB drivers, either CP2102 (square chip) or CH34x driver (rectangular chip) are installed on the computer depending on the ESP board:
+- Make sure the correct USB drivers, either CP2102 or CH34x driver are installed on the computer depending on the ESP board used.
 
-[CP2102 Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-[CH34x Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers)
+Square chip:[CP2102 Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+Rectangular chip:[CH34x Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers)
