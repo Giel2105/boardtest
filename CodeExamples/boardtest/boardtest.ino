@@ -17,38 +17,16 @@ void setup() {
 }
 
 void loop() {
-
-  if ( millis() < Time){
-
-  B_1 = beatsin8(30);
   
-  for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB(B_1,0,0);
-  }
-  
-  Serial.println(B_1);
-  FastLED.show();
-
-  }
-
-  else {
-
-    
-    FastLED.clear();
-    
-    for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB(150,0,0);
-    delay(10);
-    FastLED.show();
-    }
-
+    fill_solid(leds, NUM_LEDS, CHSV(0,0,255));
     digitalWrite(LED,HIGH);
+    FastLED.show(255);
     delay(500);
-    delay(100);
-    digitalWrite(LED,LOW);
-  
-    Time = millis() + 1500;
-    
-  }
 
+    fill_solid(leds, NUM_LEDS, CHSV(0,0,0));
+    FastLED.show(255);
+    digitalWrite(LED,LOW);
+    delay(500);
+   
+   
 }
